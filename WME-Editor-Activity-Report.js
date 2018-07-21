@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name         WME Editor Activity Report
-// @namespace    WazeUSA
-// @version      2018.07.17.002
-// @description  Ummm... it makes reports in WME.  Specifically, reports of editor activity.
-// @author       MapOMatic
-// @include      /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor\/?.*$/
-// @require      https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js
-// @license      GNU GPLv3
-// @grant        none
+// @name            WME Editor Activity Report
+// @namespace       WazeUSA
+// @version         2018.07.21.001
+// @description     Ummm... it makes reports in WME.  Specifically, reports of editor activity.
+// @author          MapOMatic
+// @include         /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor\/?.*$/
+// @require         https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
+// @require         https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js
+// @license         GNU GPLv3
+// @contributionURL https://github.com/WazeDev/Thank-The-Authors
+// @grant           none
 // ==/UserScript==
 
 (function() {
