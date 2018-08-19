@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            WME Editor Activity Report
 // @namespace       WazeUSA
-// @version         2018.07.21.001
+// @version         2018.08.18.001
 // @description     Ummm... it makes reports in WME.  Specifically, reports of editor activity.
 // @author          MapOMatic
 // @include         /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor\/?.*$/
@@ -452,7 +452,7 @@
     }
 
     function bootstrap() {
-        if (W && W.loginManager && W.loginManager.isLoggedIn() && WazeWrap.Interface) {
+        if (W && W.loginManager && W.loginManager.user && WazeWrap.Interface) {
             init();
         } else {
             setTimeout(bootstrap, 250);
